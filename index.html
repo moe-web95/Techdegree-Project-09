@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
       rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <title>Capstone Portfolio</title>
 </head>
+    
 <body>
     <!--Nav Bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-secondary sticky-top ">
@@ -20,13 +22,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about me">about me</a>
+                <a class="nav-link active" aria-current="page" href="#about-me">about me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#project">projects</a>
+                <a class="nav-link" href="#projects">projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact me">contact me</a>
+                <a class="nav-link" href="#contact-me">contact me</a>
               </li>
             </ul>
           </div>
@@ -35,7 +37,7 @@
 
     <main>
         <!--About Me-->
-      <div class="container-fluid bg-info text-sm-center p-5 " id="about me">
+      <div class="container-fluid bg-info text-sm-center p-5 " id="about-me">
         <div class="row">
           <div class="columnl-lg">
             <h1 class="display-3 text-muted mx-auto">About Me</h1>
@@ -48,7 +50,7 @@
       </div>
       <!--/About Me-->
       <!--Project-->
-      <div class="container-fluid bg-warning" id="project">
+      <div class="container-fluid bg-warning" id="projects">
         <h3 class="display-4 text-center p-5">My projects</h3>
         <div class="row ">
           <div class="col-md-6 col-lg-4">
@@ -76,9 +78,6 @@
                   class="btn btn-outline-primary text-dark" target="_blank">GitHub</a>
                   <a href=" https://moe-web95.github.io/techdegree-project-04/"
                  class="btn btn-outline-info text-dark" target="_blank">Live View</a>
-                  
-                
-                
               </div>
             </div>
           </div>
@@ -138,16 +137,16 @@
     </main>
       <!--/Project-->
       <footer>
-          <div class="row " id="contact me">
+          <div class="row " id="contact-me">
             <div class="col-lg ">
               <nav class="navbar navbar-expand-lg navbar-light bg-info">
                 <div class="container-fluid p-3 my-3">
-                  <a class="navbar-brand order-1" href="#"><img src="img/arrow.png" height="40">Contact me</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="contactInfo" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <a class="navbar-brand order-1" href="#"><img src="img/arrow.png" alt="arrow" height="40">Contact me</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse " id="contactInfo">
-                    <div class="navbar-nav">
+                  <div class="collapse navbar-collapse " id="navbarContent">
+                    <div class="navbar-nav me-auto mb-2 mb-lg-0 ">
                       <a class="nav-link active" href="mailto:moeset89.myanmar@gmail.com" target="_blank">
                         <i class="bi-envelope" style="font-size: 2rem; color: blue;"></i></a>
                       <a class="nav-link" href="#">
@@ -160,10 +159,8 @@
                   </div>
                 </div>
               </nav>
-            </div>
-            
+            </div> 
           </div>
-        </div>
       </footer>
       
     
