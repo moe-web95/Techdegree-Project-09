@@ -1,0 +1,9 @@
+.navbar-brand:hover,
+.nav-link:hover{
+    color:yellow;
+}
+
+.container-fluid:hover h1,
+.container-fluid:hover h3{
+    color:aquamarine;
+}

@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
       rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Capstone Portfolio</title>
 </head>
     
 <body>
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-secondary sticky-top ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand order-1 text-muted" href="#">{ Moe Set }</a>
+          <a class="navbar-brand order-1" href="#">{ Moe Set }</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about-me">about me</a>
+                <a class="nav-link " aria-current="page" href="#about-me">about me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#projects">projects</a>
@@ -40,7 +40,7 @@
       <div class="container-fluid bg-info text-sm-center p-5 " id="about-me">
         <div class="row">
           <div class="columnl-lg">
-            <h1 class="display-3 text-muted mx-auto">About Me</h1>
+            <h1 class="display-3 mx-auto">About Me</h1>
             <p class="lead text-dark">HI! I am Moe Set.I am a flexible, open-minded person looking for opportunities 
               as a Junior Front End Web Developer.Currently, I am completing a self-study 
               Bootcamp at TeamTreehouse and aiming to further improve my developer 
@@ -54,12 +54,11 @@
         <h3 class="display-4 text-center p-5">My projects</h3>
         <div class="row ">
           <div class="col-md-6 col-lg-4">
-            <div class="card mb-3 mx-auto" style="width: 18rem;">
+            <div class="card mb-3 mx-auto" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#registration">
               <img src="img/online-form.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Registration Form</h5>
                 <p class="card-text"> A  registration form using a variety of HTML form elements.</p>
-                
                 <a class="btn btn-outline-primary text-dark" href="https://github.com/moe-web95/TechDegree"
                         role="button" target="_blank">GitHub</a>
                 <a class="btn btn-outline-info text-dark" href="https://moe-web95.github.io/TechDegree/"
@@ -68,7 +67,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <div class="card mb-3 mx-auto" style="width: 18rem;">
+            <div class="card mb-3 mx-auto" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#webstyle">
               <img src="img/webstyle.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Web Style Guide</h5>
@@ -82,7 +81,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <div class="card mb-3 mx-auto" style="width: 18rem;">
+            <div class="card mb-3 mx-auto" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#photogallery">
               <img src="img/photoGal.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Interactive Photo Gallery </h5>
@@ -96,10 +95,10 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <div class="card mb-3 mx-auto" style="width: 18rem;">
+            <div class="card mb-3 mx-auto" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#game">
               <img src="img/Wheel-success.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Game Show App </h5>
+                <h5 class="card-title">Game Show App</h5>
                 <p class="card-text">A browser version of Wheel of Success</p>
                 <a href="https://github.com/moe-web95/TechDregree-Project-06" 
                 class="btn btn-outline-primary text-dark" target="_blank">GitHub</a>
@@ -109,26 +108,30 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <div class="card mb-3 mx-auto" style="width: 18rem;">
+            <div class="card mb-3 mx-auto" style="width: 18rem;"data-bs-toggle="modal" data-bs-target="#webapp">
               <img src="img/Web-app-dash.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">WebApp Dashboard</h5>
                 <p class="card-text">Interactive dashboard for a web application using</p>
-                <a href="https://github.com/moe-web95/TechDegree-Project-07" class="btn btn-outline-primary text-dark" target="_blank">GitHub</a>
-                <a href="https://moe-web95.github.io/TechDegree-Project-07/" class="btn btn-outline-info text-dark" target="_blank">Live View</a>
+                <a href="https://github.com/moe-web95/TechDegree-Project-07" class="btn btn-outline-primary text-dark" 
+                target="_blank">GitHub</a>
+                <a href="https://moe-web95.github.io/TechDegree-Project-07/" class="btn btn-outline-info text-dark" 
+                target="_blank">Live View</a>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <div class="card mb-3 mx-auto" style="width: 18rem;">
+            <div class="card mb-3 mx-auto" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#api">
               <img src="img/employee-dir.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Use an API to Create an Employee Directory</h5>
                 <p class="card-text"> Using JavaScript,Create employee directory by communicating with a third-party API</p>
                 <a href="https://github.com/moe-web95/Techdegree-Project-08" 
-                class="btn btn-outline-primary text-dark" target="_blank">GitHub</a>
+                  class="btn btn-outline-primary text-dark" target="_blank">GitHub
+                </a>
                 <a href="https://moe-web95.github.io/Techdegree-Project-08/"
-                class="btn btn-outline-info" target="_blank">Live View</a>
+                  class="btn btn-outline-info" target="_blank">Live View
+                </a>
               </div>
             </div>
           </div>
@@ -162,6 +165,135 @@
             </div> 
           </div>
       </footer>
+      <!--Modal-->
+      <div class="modal fade" id="registration" tabindex="-1" aria-labelledby="registrationlabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-info">
+            <div class="modal-header text-white">
+              <h5 class="modal-title" id="registrationlabel">Registration Form</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/online-form.png" class="card-img-top" alt="...">
+              <p class="card-text"> A  registration form using a variety of HTML form elements.</p>
+            </div>
+            <div class="modal-footer">
+              <a class="btn btn-outline-primary text-dark" href="https://github.com/moe-web95/TechDegree"
+                    role="button" target="_blank">GitHub
+              </a>
+              <a class="btn btn-outline-warning text-dark" href="https://moe-web95.github.io/TechDegree/"
+                role="button" target=_blank">Live View
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="webstyle" tabindex="-1" aria-labelledby="webstylelabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-info">
+            <div class="modal-header text-white">
+              <h5 class="modal-title" id="webstylelabel">Web Style Guide</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/webstyle.png" class="card-img-top" alt="...">
+              <p class="card-text">This Project is Custom style guide using CSS and SASS</p>  
+            </div>
+            <div class="modal-footer">
+              <a href="https://github.com/moe-web95/techdegree-project-04" 
+              class="btn btn-outline-primary text-dark" target="_blank">GitHub</a>
+              <a href=" https://moe-web95.github.io/techdegree-project-04/"
+             class="btn btn-outline-warning text-dark" target="_blank">Live View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="photogallery" tabindex="-1" aria-labelledby="photogallerylabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-info">
+            <div class="modal-header">
+              <h5 class="modal-title text-white" id="photogallery">Interactive Photo Gallery</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/photoGal.png" class="card-img-top" alt="...">
+              <p class="card-text">This Project use HTML, CSS and javascript</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://github.com/moe-web95/Techdegree-Project-05" 
+              class="btn btn-outline-primary text-dark" target="_blank">GitHub</a>
+              <a href="https://moe-web95.github.io/Techdegree-Project-05/" 
+              class="btn btn-outline-warning text-dark" target="_blank">Live View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="game" tabindex="-1" aria-labelledby="gamelabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-info">
+            <div class="modal-header">
+              <h5 class="modal-title text-white" id="game">Game Show App</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/Wheel-success.png" class="card-img-top" alt="...">
+              <p class="card-text">A browser version of Wheel of Success</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://github.com/moe-web95/TechDregree-Project-06" 
+                class="btn btn-outline-primary text-dark" target="_blank">GitHub
+              </a>
+              <a href="https://moe-web95.github.io/TechDregree-Project-06/" 
+                class="btn btn-outline-warning text-dark" target="_blank">Live view
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="webapp" tabindex="-1" aria-labelledby="webapplabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-info">
+            <div class="modal-header">
+              <h5 class="modal-title text-white" id="webapp">WebApp Dashboard</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/Web-app-dash.png" class="card-img-top" alt="...">
+              <p class="card-text">Interactive dashboard for a web application using</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://github.com/moe-web95/TechDegree-Project-07" class="btn btn-outline-primary text-dark" 
+              target="_blank">GitHub</a>
+              <a href="https://moe-web95.github.io/TechDegree-Project-07/" class="btn btn-outline-warning text-dark" 
+              target="_blank">Live View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="api" tabindex="-1" aria-labelledby="apilabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-info">
+            <div class="modal-header">
+              <h5 class="modal-title text-white" id="api">Use an API to Create an Employee Directory</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/employee-dir.png" class="card-img-top" alt="...">
+              <p class="card-text"> Using JavaScript,Create employee directory by communicating with a third-party API</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://github.com/moe-web95/Techdegree-Project-08" 
+                class="btn btn-outline-primary text-dark" target="_blank">GitHub
+              </a>
+              <a href="https://moe-web95.github.io/Techdegree-Project-08/"
+                class="btn btn-outline-warning" target="_blank">Live View
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Modal-->
+
       
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
