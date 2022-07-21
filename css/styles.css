@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .navbar-brand:hover,
 .nav-link:hover{
     color:yellow;
