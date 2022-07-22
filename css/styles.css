@@ -15,3 +15,6 @@ html{
 .container-fluid:hover h3{
     color:aquamarine;
 }
+footer .row {
+    --bs-gutter-x: 0;
+}
